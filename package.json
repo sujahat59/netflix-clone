@@ -1,0 +1,26 @@
+{
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "description": "Building a netflix clone from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujahat59/netflix-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujahat59/netflix-clone/issues"
+  },
+  "homepage": "https://github.com/sujahat59/netflix-clone#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
