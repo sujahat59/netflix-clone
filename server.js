@@ -1,15 +1,18 @@
-// Import Express
+// Import necessary modules
 const express = require('express');
+const cors = require('cors'); // Import CORS
 
 // Create an Express application
 const app = express();
-
-// Define the port number
 const PORT = 5001;
 
-// Define a simple route
-app.get('/', (req, res) => {
-    res.send('Welcome to Netflix Clone Backend!');
+// Middleware
+app.use(cors()); // Enable CORS
+app.use(express.json()); // Allow JSON data
+
+// Define a test API endpoint
+app.get('/api/message', (req, res) => {
+    res.json({ message: 'Hello from the backend!' });
 });
 
 // Start the server
